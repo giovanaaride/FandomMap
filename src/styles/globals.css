@@ -1,0 +1,78 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+:root {
+  --bg: #f4e7ff;
+  --font-title: "Bebas Neue", sans-serif;
+  --font-text: "Nunito", sans-serif;
+  --title-color: #ec54a1;
+  --text-color: #150022;
+  --link-color: #1a73e8;
+  --link-color-hover: rgb(48, 137, 253);
+  --btn-font-color:#fff;
+  font-size: 100%;
+  --btn-primary: #e91e63;
+  --btn-primary-hover: #d81b60;
+  --btn-secondary: #7b1fa2;
+  --btn-secondary-hover: #6a1b9a;
+  --btn-disabled: #cccccc;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+* .title {
+  font-family: "Poppins", sans-serif;
+}
+* .text {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
+
+/* ========== TEMA LIGHT ========== */
+.light-theme {
+  --font-title: "Bebas Neue", sans-serif;
+  --font-text: "Nunito", sans-serif;
+  --title-color: #ec54a1;
+  --text-color: #150022;
+  --link-color: #1a73e8;
+  font-size: 100%;
+  --btn-primary: #e91e63;
+  --btn-primary-hover: #d81b60;
+  --btn-secondary: #7b1fa2;
+  --btn-secondary-hover: #6a1b9a;
+  --btn-disabled: #cccccc;
+  --shadow-color: rgba(0, 0, 0, 0.15);
+}
+
+/* ========== TEMA DARK ========== */
+.dark-theme {
+  /* Backgrounds */
+  --bg-main: #0a0a0a;
+  --bg-card: #1a1a1a;
+  --bg-header: #1a2131;
+  /* Textos */
+  --text-primary: #dadada;
+  --text-secondary: #a0a0a0;
+  --text-light: #ffffff;
+  --text-link: #489aff;
+  /* Botões */
+  --btn-primary: #e91e63;
+  --btn-primary-hover: #ff4081;
+  --btn-secondary: #9c27b0;
+  --btn-secondary-hover: #ba68c8;
+  --btn-disabled: #444444;
+  /* Borda e sombra */
+  --border-color: #333333;
+  --shadow-color: rgba(255, 255, 255, 0.05);
+}/*# sourceMappingURL=globals.css.map */
