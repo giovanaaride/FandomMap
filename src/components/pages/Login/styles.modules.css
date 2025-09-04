@@ -32,10 +32,10 @@
   box-shadow: 0 2px 8px var(--shadow-color);
 }
 .login .input-login input::-moz-placeholder {
-  color: #999;
+  color: #8b8b8b;
 }
 .login .input-login input::placeholder {
-  color: #999;
+  color: #8b8b8b;
 }
 .login .btn {
   display: flex;
