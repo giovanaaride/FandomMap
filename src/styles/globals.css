@@ -3,13 +3,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 :root {
   --bg: #f4e7ff;
+  --bg-input: #fcfcfc;
   --font-title: "Bebas Neue", sans-serif;
   --font-text: "Nunito", sans-serif;
   --title-color: #ec54a1;
   --text-color: #150022;
   --link-color: #1a73e8;
   --link-color-hover: rgb(48, 137, 253);
-  --btn-font-color:#fff;
+  --btn-font-color: #fff;
   font-size: 100%;
   --btn-primary: #e91e63;
   --btn-primary-hover: #d81b60;

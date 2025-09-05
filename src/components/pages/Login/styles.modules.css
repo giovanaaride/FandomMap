@@ -7,10 +7,6 @@
   width: 100%;
   background-color: var(--bg);
 }
-.login .text h1 {
-  font-size: 3rem;
-  color: var(--title-color);
-}
 .login .text p {
   font-size: 1.5rem;
   color: var(--text-primacolorry);
@@ -30,6 +26,7 @@
   border-radius: 0.25rem;
   border: 0;
   box-shadow: 0 2px 8px var(--shadow-color);
+  outline: none;
 }
 .login .input-login input::-moz-placeholder {
   color: #999;

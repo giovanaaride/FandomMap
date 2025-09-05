@@ -1,0 +1,94 @@
+@charset "UTF-8";
+.cadastro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--bg);
+}
+
+.cadastro-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5rem;
+  gap: 1rem;
+  height: 75vh;
+  width: 35%;
+  font-family: var(--font-text);
+  box-shadow: 0 2px 8px var(--shadow-color);
+  background-color: var(--bg-input);
+  border-radius: 0.75rem;
+}
+.cadastro-form h2 {
+  font-size: 1.75rem;
+  font-family: var(--font-text);
+}
+.cadastro-form .input-group-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1rem;
+}
+.cadastro-form .input-group-name input {
+  height: 2.5rem;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px var(--shadow-color);
+}
+.cadastro-form .input-group-date {
+  margin-top: 0.5rem;
+}
+.cadastro-form .input-group-date label {
+  font-size: 1rem;
+}
+.cadastro-form .input-group-date .input-birthday {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+.cadastro-form .input-group-date .input-birthday input {
+  height: 2.5rem;
+  width: 8rem;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px var(--shadow-color);
+}
+.cadastro-form .input-group-date .input-birthday select {
+  height: 2.5rem;
+  width: 8rem;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px var(--shadow-color);
+}
+.cadastro-form .input-group-gender p {
+  margin-bottom: 1rem;
+}
+.cadastro-form .input-group-gender .gender {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.cadastro-form .input-group-gender .gender input {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.cadastro-form .input-group-gender .gender .options-gender input[type=radio]:checked {
+  accent-color: var(--btn-secondary); /* MUDA SÓ A COR DA BOLINHA */
+}
+.cadastro-form .input-group-gender .gender label {
+  font-size: 1rem;
+  width: 8rem;
+  padding: 0.5rem;
+  border: 1px solid var(--btn-secondary);
+  border-radius: 0.25rem;
+}/*# sourceMappingURL=styles.modules.css.map */

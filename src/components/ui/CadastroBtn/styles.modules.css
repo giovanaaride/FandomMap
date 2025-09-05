@@ -1,0 +1,18 @@
+.btn-cadastro {
+  height: 3rem;
+  width: 15rem;
+  cursor: pointer;
+  background-color: var(--btn-secondary);
+  font-size: 1.125rem;
+  color: var(--btn-font-color);
+  border-radius: 0.25rem;
+  border: 0;
+  box-shadow: 0 2px 8px var(--shadow-color);
+}
+.btn-cadastro:hover {
+  background-color: var(--btn-secondary-hover);
+}
+.btn-cadastro:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}/*# sourceMappingURL=styles.modules.css.map */
