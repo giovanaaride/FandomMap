@@ -1,5 +1,5 @@
 //Buttons
-import CadastroBtn from "../../ui/CadastroBtn";
+import LoginBtn from "../../ui/LoginBtn";
 import { Link } from "react-router-dom";
 import Title from "../../ui/Title";
 import "./styles.modules.scss";
@@ -64,7 +64,7 @@ const Cadastro = () => {
 
         {/* GÊNERO */}
         <div className="input-group-gender">
-          <p>Gênero</p>
+          <p>Gênero: </p>
           <div className="gender">
             <label className="options-gender">
               <input type="radio" name="gender" value="feminino" />
@@ -83,22 +83,22 @@ const Cadastro = () => {
 
         {/* EMAIL */}
         <div className="input-cadastro">
-          <label htmlFor="email">Email</label>
+          <p htmlFor="email">Email: </p>
           <input id="email" type="email" placeholder="seu@email.com" required />
         </div>
 
         {/* SENHA */}
         <div className="input-cadastro">
-          <label htmlFor="senha">Senha</label>
+          <p htmlFor="senha">Senha: </p>
           <input id="senha" type="password" placeholder="Sua senha" required />
         </div>
 
         {/* BOTÃO E LINK */}
         <div className="btn-form">
-          <CadastroBtn />
-          <p>
+          <LoginBtn />
+          <a>
             Já tem uma conta? Faça login
-          </p>
+          </a>
         </div>
 
       </form>

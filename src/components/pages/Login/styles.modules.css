@@ -74,4 +74,15 @@
 }
 .login .btn a:hover {
   color: var(--link-color-hover);
+}
+
+@media (max-width: 1024px) {
+  section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .text {
+    text-align: center;
+  }
 }/*# sourceMappingURL=styles.modules.css.map */

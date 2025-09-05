@@ -8,6 +8,8 @@
     background-color: var(--bg);
 }
 .cadastro-form {
+border: 8px solid blue;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,8 +18,10 @@
     gap: 1rem;
 
     height: 75vh;
-    width: 35%;
-
+    width: 30%;
+    max-width: 600px; 
+    min-width: 280px; 
+    padding: 2rem 1.5rem;
     font-family: var(--font-text);
 
     box-shadow: 0 2px 8px var(--shadow-color);
@@ -27,6 +31,7 @@
     h2 {
         font-size: 1.75rem;
         font-family: var(--font-text);
+        word-wrap: break-word;
     }
     .input-group-name {
         display: flex;
@@ -104,5 +109,41 @@
                 border-radius: 0.25rem;
             }
         }
+    }
+
+    .input-cadastro {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        input {
+            height: 2.5rem;
+            width: 17rem;
+            padding: 0.5rem;
+            margin-left: 0.5rem;
+            outline: none;
+            border: none;
+            border-radius: 0.25rem;
+            box-shadow: 0 2px 4px var(--shadow-color);
+        }
+    }
+    .btn-form {
+        display: flex;
+        flex-direction: column;
+        a {
+            margin-top: 0.5rem;
+            color: var(--link-color);
+            cursor: pointer;
+
+            &:hover {
+                color: var(--link-color-hover);
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .input-group-name{
+        flex-direction: column;
     }
 }
