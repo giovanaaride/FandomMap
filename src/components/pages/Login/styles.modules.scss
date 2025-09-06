@@ -8,6 +8,7 @@
     width: 100%;
 
     background-color: var(--bg);
+
     .text {
         p {
             font-size: 1.5rem;
@@ -37,6 +38,35 @@
                 color: #999;
             }
         }
+
+        /* Icon Eye */
+        .password-wrapper {
+            position: relative;
+            width: 100%;
+
+            input {
+                padding-right: 3rem;
+            }
+
+            .toggle-password {
+                background-color: #fff; // mesmo fundo do input
+
+                position: absolute;
+                top: 50%;
+                right: 0.5rem;
+                transform: translateY(-50%);
+                border: none;
+
+                cursor: pointer;
+                font-size: 1.75rem;
+                color: var(--btn-secondary);
+
+                &:hover {
+                    color: var(--btn-secondary-hover);
+                }
+            }
+        }
+        /*  FIim Icon Eye  */
     }
 
     .btn {
@@ -100,14 +130,12 @@
 
         align-items: center;
         justify-content: center;
-        
     }
 
     .text {
-    text-align: center;
-    p{
-        display: none;
+        text-align: center;
+        p {
+            display: none;
+        }
     }
-}
-
 }
